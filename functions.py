@@ -185,7 +185,7 @@ def medium(model,mets,ex = 'EX'):
         if rxn.id not in mets:
             model.reactions.get_by_id(rxn.id).lower_bound = 0
         else:
-            model.reactions.get_by_id(rxn.id).lower_bound = -100
+            model.reactions.get_by_id(rxn.id).lower_bound = -10
 
     return model
 
