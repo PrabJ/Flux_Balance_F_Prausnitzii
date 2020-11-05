@@ -196,3 +196,14 @@ def updateLactococcus(model):
     
     model.reactions.get_by_id('EX_glc__D_e').lower_bound=-150
     return model
+
+def find_match(model, medium_list):
+    matching_id=[]
+    not_matching_id=[]
+    for component in medium_list:
+        try:
+            matching_id.append(model.exchanges.get_by_id(component))
+        except KeyError:
+            not_matching_id.append(component)
+            continue
+    return matching_id, not_matching_id
