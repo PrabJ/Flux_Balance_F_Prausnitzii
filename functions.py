@@ -207,3 +207,43 @@ def find_match(model, medium_list):
             not_matching_id.append(component)
             continue
     return matching_id, not_matching_id
+
+def map_compounds(Chemicals):
+    #Method takes a list of chemical names and returns their IDs.
+    import requests
+    import json
+    url = "http://api.xialab.ca/mapcompounds"
+    payload = "{\n\t\"queryList\": \"%s;\",\n\t\"inputType\": \"name\"\n}" %";".join(Chemicals)
+    headers = {
+        'Content-Type': "application/json",
+        'cache-control': "no-cache",
+        }
+    response = requests.request("POST", url, data=payload, headers=headers)
+
+    #translate response into pandas dataframe
+    dict=json.loads(response.text)
+    mapped_compounds=pd.DataFrame(dict)
+
+    return mapped_compounds
+
+
+def get_Mol_Weight(dataframe, column):
+    #take chebi ID and get molecular weight
+    from libchebipy import ChebiEntity
+    mol_weight=[]
+    for i in dataframe[column]:
+        try:
+            x= ChebiEntity(str(i))
+            mol_weight.append(x.get_mass())
+        except:
+            mol_weight.append(np.nan)
+            continue
+    return mol_weight
+
+def Mol_Weight(Chemicals, column="chebi_id"):
+    #translate BiGG name into range of IDs nd get mol weights
+    mapped_compounds=map_compounds(Chemicals)
+    mol_weight=get_Mol_Weight(mapped_compounds, column)
+    mapped_compounds["mol_weight"]=mol_weight
+
+    return mapped_compounds
