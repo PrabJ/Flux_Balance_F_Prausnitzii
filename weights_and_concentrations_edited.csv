@@ -1,6 +1,7 @@
 query,BiGG_ID,hit,mol_weight,conc_ppm_Bact_Peptone_L37,conc_ppm_Proteose_Peptone_L85,conc_ppm_soya_peptone_L44,conc_ppm_yeast_extract,g/L,mmol/L
 L-cysteate,Lcyst(e),Cysteic acid,169.156,4150,375,1325,1900,0,0
 L-Cystine,Lcystin(e),L-Cystine,240.30256,4150,375,1325,1900,0,0
+Adenine,ade(e),Adenine,135.1269,1000,1000,1000,1000,0,0
 D-Alanine,ala_D(e),D-Alanine,89.09322,3920,3810,2570,910,0,0
 L-Alanine,ala_L(e),L-Alanine,89.09322,3920,3810,2570,910,0,0
 D-Alanyl-D-alanine,alaala(e),D-Alanyl-D-alanine,160.17116,3920,3810,2570,910,0,0
@@ -11,6 +12,7 @@ L-alanylglycine,alagly(e),Alanylglycine,146.14,8455.294118,6537.647059,5584.7058
 L-alanyl-L-histidine,alahis(e),Alanyl-Histidine,226.23,3920,3810,2570,910,0,0
 L-alanyl-L-leucine,alaleu(e),Alanyl-Leucine,202.25,12680,13030,10110,11710,0,0
 L-alanyl-L-threonine,alathr(e),Alanyl-Threonine,190.2,3920,3810,2570,910,0,0
+L-Arabinose,arab_L(e),L-Arabinose,150.1299,1000,1000,1000,1000,0,0
 L-Arginine,arg_L(e),L-Arginine,174.201,49900,58000,46400,33100,0,0
 L-Asparagine,asn_L(e),L-Asparagine,132.118,30300,29250,35300,35350,0,0
 L-Aspartate,asp_L(e),L-Aspartic acid,133.1027,60600,58500,70600,70700,0,0
@@ -48,7 +50,10 @@ Glycyl-L-methionine,glymet(e),,206.27,7168.627451,4417.647059,2698.039215,4833.3
 exchange reaction for glycylphenylalai,glyphe(e),,240.26,4535.294118,2617.647059,1664.705882,3500,0,0
 Glycylproline,glypro(e),Glycylproline,172.18,23968.62742,22584.31376,12998.03918,6433.33333,0,0
 Glycyl-L-tyrosine,glytyr(e),Glycyl-Tyrosine,238.2399,4535.294118,2617.647059,1664.705882,3500,0,0
+Guanine,gua(e),Guanine,151.13,1000,1000,1000,1000,0,0
+H,h(e),L-Histidine,155.15468,1000,1000,1000,1000,0,0
 H2O,h2o(e),Water,18.0153,100000,100000,100000,100000,0,0
+Hydrogen sulfide,h2s(e),Hydrogen sulfide,34.08188,1000,1000,1000,1000,0,0
 L-Isoleucine,ile_L(e),L-Isoleucine,131.175,38100,45800,25100,48100,0,0
 K,k(e),L-Lysine,146.18764,36000,14000,33000,73000,0,0
 D-lactate,lac_D(e),L-Lactic acid,90.07794,10000,0,0,0,0,0
@@ -57,6 +62,9 @@ L-Leucine,leu_L(e),L-Leucine,131.17296,8760,9220,7540,10800,0,0
 exchange reaction for leucylglyci,leugly(e),,206.24,8760,9220,7540,10800,0,0
 Leucylleucine,leuleu(e),Leucyl-Leucine,244.331,8760,9220,7540,10800,0,0
 L-Lysine,lys_L(e),L-Lysine,146.18764,43800,46100,37700,54000,0,0
+Maltose,malt(e),Maltose,342.3,1000,1000,1000,1000,0,0
+D-Mannose,man(e),D-Mannose,180.1559,1000,1000,1000,1000,0,0
+methanol,meoh(e),Methanol,32.04186,1000,1000,1000,1000,0,0
 D-Methionine,met_D(e),D-Methionine,149.21238,2633.333333,1800,1033.333333,1333.333333,0,0
 L-Methionine,met_L(e),L-Methionine,149.21238,2633.333333,1800,1033.333333,1333.333333,0,0
 L-methionyl-L-alanine,metala(e),Methionyl-Alanine,220.29,2633.333333,1800,1033.333333,1333.333333,0,0
@@ -66,6 +74,8 @@ Mg,mg2(e),,24.305,265,340,1530,1530,0,0
 Sodium,na1(e),Sodium,22.98977,10000,80000,4000,3000,0,0
 Nicotinate,nac(e),Nicotinic acid,123.10944,10000,0,0,0,0,0
 Ammonia,nh4(e),Ammonia,17.03056,100,0,0,0,0,0
+Ornithine,orn(e),Ornithine,132.16106,1000,1000,1000,1000,0,0
+Orotate,orot(e),Orotic acid,156.0963,1000,1000,1000,1000,0,0
 Lead,pb(e),Lead,207.2,0.4,0.1,0.3,0.7,0,0
 exchange reaction for pectins,pect(e),,194.14,10000,0,0,0,0,0
 L-Phenylalanine,phe_L(e),L-Phenylalanine,165.18918,26000,46600,3800,37800,0,0
@@ -81,7 +91,10 @@ Riboflavin,ribflv(e),Riboflavin,376.3639,0,0,2750,0,0,0
 L-Serine,ser_L(e),L-Serine,105.09262,28100,21800,6700,34200,0,0
 Sulfate,so4(e),Sulfate,98.07948,10000,0,0,0,0,0
 "starch, structure 1 (1,6-{7[1,4-Glc], 4[1,4-Glc]})",strch1(e),,359.33,10000,0,0,0,0,0
+Taurine,taur(e),Taurine,125.148,1000,1000,1000,1000,0,0
+Thiamin,thm(e),Thiamine,265.35574,1000,1000,1000,1000,0,0
 L-Threonine,thr_L(e),L-Threonine,119.1192,12500,27500,16800,27300,0,0
 L-Tryptophan,trp_L(e),L-Tryptophan,204.22526,6600,7500,6400,8500,0,0
 L-Tyrosine,tyr_L(e),L-Tyrosine,181.18858,3900,17700,20900,49500,0,0
+Uracil,ura(e),Uracil,112.08684,1000,1000,1000,1000,0,0
 L-Valine,val_L(e),L-Valine,117.14638,33300,41100,36500,10000,0,0
