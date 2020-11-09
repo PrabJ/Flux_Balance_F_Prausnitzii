@@ -1,0 +1,100 @@
+,query,BiGG_ID,hit,mol_weight,conc_ppm_Bact_Peptone_L37,conc_ppm_Proteose_Peptone_L85,conc_ppm_soya_peptone_L44,conc_ppm_yeast_extract,g/L,mmol/L
+0,L-cysteate,Lcyst(e),Cysteic acid,169.156,,,,,0.0,0.0
+1,L-Cystine,Lcystin(e),L-Cystine,240.30256,,,,,0.0,0.0
+2,Adenine,ade(e),Adenine,135.1269,,,,,0.0,0.0
+3,D-Alanine,ala_D(e),D-Alanine,89.09322,,,,,0.0,0.0
+4,L-Alanine,ala_L(e),L-Alanine,89.09322,39200.0,38100.0,25700.0,9100.0,112.1,1.2582326691077053
+5,D-Alanyl-D-alanine,alaala(e),D-Alanyl-D-alanine,160.17116,,,,,0.0,0.0
+6,L-alanyl-L-aspartate,alaasp(e),Alanyl-Aspartic acid,203.17,,,,,0.0,0.0
+7,L-alanyl-L-glutamine,alagln(e),Alanyl-Glutamine,217.22,,,,,0.0,0.0
+8,L-alanyl-L-glutamate,alaglu(e),Alanyl-Glutamic acid,218.21,,,,,0.0,0.0
+9,L-alanylglycine,alagly(e),Alanylglycine,146.14,,,,,0.0,0.0
+10,L-alanyl-L-histidine,alahis(e),Alanyl-Histidine,226.23,,,,,0.0,0.0
+11,L-alanyl-L-leucine,alaleu(e),Alanyl-Leucine,202.25,,,,,0.0,0.0
+12,L-alanyl-L-threonine,alathr(e),Alanyl-Threonine,190.2,,,,,0.0,0.0
+13,L-Arabinose,arab_L(e),L-Arabinose,150.1299,,,,,0.0,0.0
+14,L-Arginine,arg_L(e),L-Arginine,174.201,49900.00000000001,58000.0,46400.0,33100.0,187.4,1.0757687958163271
+15,L-Asparagine,asn_L(e),L-Asparagine,132.118,0.0,0.0,0.0,0.0,0.0,0.0
+16,L-Aspartate,asp_L(e),L-Aspartic acid,133.1027,60599.99999999999,58500.0,70600.0,70700.0,260.4,1.9563840553196892
+17,Biotin,btn(e),Biotin,244.31172,,,,,0.0,0.0
+18,Calcium,ca2(e),Calcium,40.078,635.0,200.0,225.0,155.0,1.215,0.030315884026149008
+19,Cob(I)alamin,cbl1(e),Cob(I)alamin,1330.3557,,,,,0.0,0.0
+20,Cob(II)alamin,cbl2(e),Cob(II)alamin,1329.3478,,,,,0.0,0.0
+21,Cellobiose,cellb(e),Cellobiose,342.29648,,,,,0.0,0.0
+22,Cys-Gly,cgly(e),Cysteinylglycine,178.21058,,,,,0.0,0.0
+23,Chloride,cl(e),Chloride ion,35.4527,10000.0,80000.0,4000.0,3000.0,97.0,2.7360398502793863
+24,CO2,co2(e),Carbon dioxide,44.01,,,,,0.0,0.0
+25,Co2,cobalt2(e),Carbon dioxide,44.01,,,,,0.0,0.0
+26,Cu2,cu2(e),,127.09,1.0,10.0,2.0,2.0,0.015,0.00011802659532614682
+27,L-Cysteine,cys_L(e),L-Cysteine,121.158,0.0,0.0,0.0,0.0,0.0,0.0
+28,Fe2,fe2(e),,55.84,11.0,21.0,45.0,26.0,0.103,0.0018445558739255013
+29,Fe3,fe3(e),,55.85,11.0,21.0,45.0,26.0,0.103,0.0018442256042972246
+30,Folate,fol(e),Folic acid,441.3975,,,,,0.0,0.0
+31,D-Galactose,gal(e),D-Galactose,180.1559,,,,,0.0,0.0
+32,D-Galacturonate,galur(e),D-Galacturonate,194.14,,,,,0.0,0.0
+33,D-Glucosamine,gam(e),Glucosamine,179.17116,,,,,0.0,0.0
+34,D-Glucose,glc(e),D-Glucose,180.15588,,,,,0.0,0.0
+35,D-Glucuronate,glcur(e),D-Glucuronic acid,194.1394,,,,,0.0,0.0
+36,L-Glutamine,gln_L(e),L-Glutamine,146.14458,77100.0,44500.0,28300.0,59500.0,209.4,1.4328276833803897
+37,L-Glutamate,glu_L(e),L-Glutamic acid,147.1293,99300.0,137799.99999999997,147100.00000000003,134900.0,519.1,3.5281891506314516
+38,Glycine,gly(e),Glycine,75.06664,,,,,0.0,0.0
+39,Glycyl-L-asparagine,glyasn(e),,189.17,,,,,0.0,0.0
+40,Glycyl-L-aspartate,glyasp(e),,189.15,,,,,0.0,0.0
+41,Glycerol 3-phosphate,glyc3p(e),Glycerol 3-phosphate,172.07372,,,,,0.0,0.0
+42,(R)-Glycerate,glyc_R(e),Glyceric acid,106.07734,,,,,0.0,0.0
+43,Glycyl-L-glutamine,glygln(e),,203.2,,,,,0.0,0.0
+44,Glycyl-L-glutamate,glyglu(e),,203.17,,,,,0.0,0.0
+45,exchange reaction for glycylglyci,glygly(e),,150.14,,,,,0.0,0.0
+46,Glycylleucine,glyleu(e),Glycylleucine,188.2242,,,,,0.0,0.0
+47,Glycyl-L-methionine,glymet(e),,206.27,,,,,0.0,0.0
+48,exchange reaction for glycylphenylalai,glyphe(e),,240.26,,,,,0.0,0.0
+49,Glycylproline,glypro(e),Glycylproline,172.18,,,,,0.0,0.0
+50,Glycyl-L-tyrosine,glytyr(e),Glycyl-Tyrosine,238.2399,,,,,0.0,0.0
+51,Guanine,gua(e),Guanine,151.13,,,,,0.0,0.0
+52,H,h(e),L-Histidine,155.15468,,,,,0.0,0.0
+53,H2O,h2o(e),Water,18.0153,,,,,0.0,0.0
+54,Hydrogen sulfide,h2s(e),Hydrogen sulfide,34.08188,,,,,0.0,0.0
+55,L-Isoleucine,ile_L(e),L-Isoleucine,131.175,0.0,0.0,0.0,0.0,0.0,0.0
+56,K,k(e),L-Lysine,146.18764,36000.0,14000.0,33000.0,73000.0,156.0,1.0671216800544836
+57,D-lactate,lac_D(e),L-Lactic acid,90.07794,,,,,0.0,0.0
+58,Lactose,lcts(e),Lactose,342.3,,,,,0.0,0.0
+59,L-Leucine,leu_L(e),L-Leucine,131.17296,43800.0,46100.0,37700.0,54000.0,181.6,1.3844316694538266
+60,exchange reaction for leucylglyci,leugly(e),,206.23999999999998,,,,,0.0,0.0
+61,Leucylleucine,leuleu(e),Leucyl-Leucine,244.331,,,,,0.0,0.0
+62,L-Lysine,lys_L(e),L-Lysine,146.18764,15800.0,10800.0,6200.0,8000.0,40.8,0.279093362475788
+63,Maltose,malt(e),Maltose,342.3,,,,,0.0,0.0
+64,D-Mannose,man(e),D-Mannose,180.1559,,,,,0.0,0.0
+65,methanol,meoh(e),Methanol,32.04186,,,,,0.0,0.0
+66,D-Methionine,met_D(e),D-Methionine,149.21238,,,,,0.0,0.0
+67,L-Methionine,met_L(e),L-Methionine,149.21238,0.0,0.0,0.0,0.0,0.0,0.0
+68,L-methionyl-L-alanine,metala(e),Methionyl-Alanine,220.29,,,,,0.0,0.0
+69,L-methionine-R-sulfoxide,metsox_R_L(e),,165.21,,,,,0.0,0.0
+70,L-Methionine S-oxide,metsox_S_L(e),L-Methionine S-oxide,165.21178,,,,,0.0,0.0
+71,Mg,mg2(e),,24.305,265.0,340.0,1530.0,1530.0,3.665,0.15079201810327095
+72,Sodium,na1(e),Sodium,22.98977,10000.0,80000.0,4000.0,3000.0,97.0,4.219267961358465
+73,Nicotinate,nac(e),Nicotinic acid,123.10944,,,,,0.0,0.0
+74,Ammonia,nh4(e),Ammonia,17.03056,,,,,0.0,0.0
+75,Ornithine,orn(e),Ornithine,132.16106,,,,,0.0,0.0
+76,Orotate,orot(e),Orotic acid,156.0963,,,,,0.0,0.0
+77,Lead,pb(e),Lead,207.2,0.4,0.1,0.3,0.7,0.0015,7.23938223938224e-06
+78,exchange reaction for pectins,pect(e),,194.14,,,,,0.0,0.0
+79,L-Phenylalanine,phe_L(e),L-Phenylalanine,165.18918,26000.0,46600.0,3800.0,37800.0,114.2,0.6913285724888277
+80,Phosphate,pi(e),Phosphate,97.9952,,,,,0.0,0.0
+81,(R)-Pantothenate,pnto_R(e),Pantothenic acid,219.23502,,,,,0.0,0.0
+82,L-Proline,pro_L(e),L-Proline,115.1305,58300.0,59900.00000000001,34000.0,8800.0,161.0,1.398413105128528
+83,L-Prolinylglycine,progly(e),,174.2,,,,,0.0,0.0
+84,Pyridoxamine,pydam(e),Pyridoxamine,168.19316,,,,,0.0,0.0
+85,Pyridoxal,pydx(e),Pyridoxal,167.162,,,,,0.0,0.0
+86,Pyridoxine,pydxn(e),Pyridoxine,169.17788,,,,,0.0,0.0
+87,Reduced riboflavin,rbflvrd(e),Riboflavin reduced,378.4,,,,,0.0,0.0
+88,Riboflavin,ribflv(e),Riboflavin,376.3639,,,,,0.0,0.0
+89,L-Serine,ser_L(e),L-Serine,105.09262,28100.0,21800.0,6700.0,34200.0,90.8,0.8639997746749486
+90,Sulfate,so4(e),Sulfate,98.07948,,,,,0.0,0.0
+91,"starch, structure 1 (1,6-{7[1,4-Glc], 4[1,4-Glc]})",strch1(e),,359.33,,,,,0.0,0.0
+92,Taurine,taur(e),Taurine,125.148,,,,,0.0,0.0
+93,Thiamin,thm(e),Thiamine,265.35574,,,,,0.0,0.0
+94,L-Threonine,thr_L(e),L-Threonine,119.1192,12500.0,27500.0,16800.0,27300.0,84.1,0.7060154870079718
+95,L-Tryptophan,trp_L(e),L-Tryptophan,204.22526,6600.000000000001,7500.0,6400.0,8500.0,29.0,0.14200006404692544
+96,L-Tyrosine,tyr_L(e),L-Tyrosine,181.18858,3900.0000000000005,17700.0,20900.0,49500.0,92.0,0.5077582704163806
+97,Uracil,ura(e),Uracil,112.08684,,,,,0.0,0.0
+98,L-Valine,val_L(e),L-Valine,117.14638,33300.0,41100.0,36500.0,10000.0,120.9,1.0320421339524108
